@@ -1,0 +1,86 @@
+@keyframes warnabackground{
+    0%{
+        background-color: #0a81ab;
+    }
+    
+    50% {
+        background-color:#0c4271;
+    }
+
+    100%{
+        background-color:#0a81ab;
+    }
+}
+
+
+body{
+    animation:warnabackground 3s infinite;
+}
+
+
+.content-wrapper{
+    width: 1170px;
+    height:850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kotak{
+    width:300px;
+    height:100px;
+    background-color: #f9dfdc;
+    margin: 20px auto;
+    border-radius: 30px;
+    line-height: 100px;
+}
+
+@keyframes tulisan{
+    0%{
+        font-size: 20px;
+    }
+
+    50%{
+        font-size: 25px;
+    }
+
+    100%{
+        font-size: 20px;
+    }
+}
+
+.kotak-1 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: tulisan 3s 1s infinite;
+}
+
+.kotak-2 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: tulisan 3s 2s infinite;
+}
+
+.kotak-3 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: tulisan 3s 3s infinite;
+}
+
+.kotak-4 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: tulisan 3s 4s infinite;
+}
+
+.kotak-5 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: tulisan 3s 5s infinite;
+}
+
+.kotak-6 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: tulisan 3s 6s infinite;
+}
+
+.kotak-7 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: tulisan 3s 7s infinite;
+}
+
+
